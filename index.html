@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIRIUS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo"><img src="./assets/images/sirius-logo.jpg" alt=""></div>
+      <ul class="nav-menu">
+        <li><a href="#">Menu</a></li>
+        <li class="dropdown-parent">
+          <button type="button" class="dropdown-toggle">About Us &#9662;</button>
+          <ul class="dropdown">
+            <li><a href="#">About SIRIUS</a></li>
+            <li><a href="#">Why SIRIUS</a></li>
+            <li><a href="#">Director Message</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Our Journey</a></li>
+            <li><a href="#">Our Clients</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-parent">
+          <button type="button" class="dropdown-toggle">Products (Sample) &#9662;</button>
+          <ul class="dropdown">
+            <li class="dropdown-parent">
+              <button type="button" class="dropdown-toggle">Wired Intruder Alarms &#9656;</button>
+              <ul class="nested-dropdown">
+                <li class="dropdown-parent">
+                  <button type="button" class="dropdown-toggle">Control Panel &#9656;</button>
+                  <ul class="nested-dropdown">
+                    <li><a href="#">IP Series</a></li>
+                    <li><a href="#">GSM Based</a></li>
+                    <li><a href="#">PSTN Based</a></li>
+                    <li><a href="#">Multicomm Series</a></li>
+                    <li><a href="#">Panels Without Inbuilt Communication</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown-parent">
+          <button type="button" class="dropdown-toggle">Partner With Us &#9662;</button>
+          <ul class="dropdown">
+            <li><a href="#">Apply for Job</a></li>
+            <li><a href="#">Become Our Channel Partner</a></li>
+            <li><a href="#">Become A Dealer</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-parent">
+          <button type="button" class="dropdown-toggle">Resources &#9662;</button>
+          <ul class="dropdown">
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">White Papers</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Crime News</a></li>
+            <li><a href="#">Upcoming Webinars</a></li>
+          </ul>
+        </li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#">Menu</a></li>
+        <li>
+          <button type="button" class="mobile-dropdown-toggle">About Us &#9662;</button>
+          <ul class="mobile-dropdown">
+            <li><a href="#">About SIRIUS</a></li>
+            <li><a href="#">Why SIRIUS</a></li>
+            <li><a href="#">Director Message</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Our Journey</a></li>
+            <li><a href="#">Our Clients</a></li>
+          </ul>
+        </li>
+        <li>
+          <button type="button" class="mobile-dropdown-toggle">Products (Sample) &#9662;</button>
+          <ul class="mobile-dropdown">
+            <li>
+              <button type="button" class="mobile-dropdown-toggle">Wired Intruder Alarms &#9656;</button>
+              <ul class="mobile-nested-dropdown">
+                <li>
+                  <button type="button" class="mobile-dropdown-toggle">Control Panel &#9656;</button>
+                  <ul class="mobile-nested-dropdown">
+                    <li><a href="#">IP Series</a></li>
+                    <li><a href="#">GSM Based</a></li>
+                    <li><a href="#">PSTN Based</a></li>
+                    <li><a href="#">Multicomm Series</a></li>
+                    <li><a href="#">Panels Without Inbuilt Communication</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <button type="button" class="mobile-dropdown-toggle">Partner With Us &#9662;</button>
+          <ul class="mobile-dropdown">
+            <li><a href="#">Apply for Job</a></li>
+            <li><a href="#">Become Our Channel Partner</a></li>
+            <li><a href="#">Become A Dealer</a></li>
+          </ul>
+        </li>
+        <li>
+          <button type="button" class="mobile-dropdown-toggle">Resources &#9662;</button>
+          <ul class="mobile-dropdown">
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">White Papers</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Crime News</a></li>
+            <li><a href="#">Upcoming Webinars</a></li>
+          </ul>
+        </li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Slider Section -->
+  <section class="slider">
+    <div class="slides">
+      <!-- Slide 1 -->
+      <div class="slide active" style="background-image: url('https://www.hellotech.com/blog/wp-content/uploads/2022/08/How-to-Build-Your-Own-Smart-Home-Security-System-1.jpg');">
+        <div class="slide-content">
+          <h2>One of the Best Smart Security Systems</h2>
+          <p>SIRIUS is one of the best brands in smart security systems</p>
+          <button class="btn">Let’s find out our edge</button>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide" style="background-image: url('https://lirp.cdn-website.com/6f2bc6f2/dms3rep/multi/opt/Businessman-+Smartphone-+Security+Camera+System-+Smart+Home-+Safety-+Automation+%283%29-1920w.jpg');">
+        <div class="slide-content">
+          <h2>Excellent Access Control Systems</h2>
+          <p>From biometric to face-recognition, we manufacture a wide range of access control devices.</p>
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="slide" style="background-image: url('https://www.security.org/app/uploads/2024/09/best-systems-page-3.jpg');">
+        <div class="slide-content">
+          <h2>Integrated Fire Cum Burglar Alarm Systems</h2>
+          <p>Advanced systems for home and corporate infrastructures.</p>
+          <button class="btn">Discover More</button>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation Dots -->
+    <div class="slider-dots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+    <!-- Navigation Arrows -->
+    <button class="arrow prev">&#10094;</button>
+    <button class="arrow next">&#10095;</button>
+  </section>
+
+  <!-- About Company Section -->
+  <section class="about-company">
+    <div class="container">
+      <div class="about-content">
+        <h2>We are SIRIUS</h2>
+        <p>
+          Operating since 1986, SIRIUS has been a pioneer in electronic security systems.
+          We specialize in manufacturing, installing, and servicing high-performance security solutions.
+          We introduced the concept of CCTV as a deterrent and were the first to install CCTV in an Indian bank.
+        </p>
+        <p>
+          With state-of-the-art infrastructure and over 35 years of experience, we continue to lead in delivering innovative,
+          effective, and affordable security solutions.
+        </p>
+        <button class="btn">Read More</button>
+      </div>
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1617897711385-df9c86b7dfe3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="About SIRIUS" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Range Section -->
+  <section class="product-range">
+    <div class="container">
+      <h2>Our Product Range</h2>
+      <div class="products">
+        <div class="product-item">
+          <img src="https://www.touchstar.co.uk/files/myimages/fingerprint.jpg" alt="Biometric Access Control" />
+          <h3>Biometric Access Control</h3>
+          <p>Systems for industrial use.</p>
+        </div>
+        <div class="product-item">
+          <img src="https://www.apexsecurity.in/wp-content/uploads/2018/11/ADDRESSABLE-HEAT-DETECTORasd-300x222.png" alt="Fire Cum Burglar Alarms" />
+          <h3>Fire Cum Burglar Alarms</h3>
+          <p>Integrated alarm systems for safety.</p>
+        </div>
+        <div class="product-item">
+          <img src="https://images.unsplash.com/photo-1730967693281-c114d9930860?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="CCTV Systems" />
+          <h3>CCTV Systems</h3>
+          <p>Wide range of security cameras.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Clients & Sample Logos Section -->
+  <section class="our-clients">
+    <div class="container">
+      <h2>Our Clients</h2>
+      <div class="client-logos">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_XvYt9BSAV3v-WgOoMhi6997uSOVpokd9Vw&s" alt="Client Logo 1" />
+        <img src="https://www.aabhishek.com/wp-content/uploads/2016/05/Engineering-Logo-Design.jpg" alt="Client Logo 2" />
+        <img src="https://www.aabhishek.com/wp-content/uploads/2016/05/Real-Estate-Construction-Logo-Design.png" alt="Client Logo 3" />
+        <img src="https://images-platform.99static.com//WnnxETQYaEVDQZxa1ZVZVZjtO-4=/317x274:817x774/fit-in/590x590/99designs-contests-attachments/67/67571/attachment_67571500" alt="Client Logo 4" />
+        <!-- Add more logos as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Services Section -->
+  <section class="our-services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service-item">
+          <img src="https://dis-blog.thalesgroup.com/wp-content/uploads/2018/10/IoT-Home-Security.jpg" alt="Home Security" />
+          <h3>Security Solutions for Homes</h3>
+        </div>
+        <div class="service-item">
+          <img src="https://img.securityinfowatch.com/files/base/cygnus/siw/image/2024/03/6605de6fed022b001ed93cd2-thumbnail_new_cameras_with_iva_pro_for_building_se.png?auto=format,compress&fit=max&q=45&w=950&width=950" alt="Industrial Security" />
+          <h3>Security Solutions for Industries</h3>
+        </div>
+        <div class="service-item">
+          <img src="https://prowire.us/wp-content/uploads/2023/03/office-security-options.jpg" alt="Office Security" />
+          <h3>Security Solutions for Offices</h3>
+        </div>
+        <div class="service-item">
+          <img src="https://img.saurenergy.com/2022/03/home-solar-rooftop-solutions.jpg" alt="Solar PV Systems" />
+          <h3>Solar PV Systems</h3>
+        </div>
+        <div class="service-item">
+          <img src="https://trdsf.com/cdn/shop/articles/42.png?v=1708754578" />
+          <h3>Fire Alarm Systems</h3>
+        </div>
+        <div class="service-item">
+          <img src="https://www.controleng.com/wp-content/uploads/2024/11/CTL2406_MAG2_F3b_CYBERSECURITY-Rockwell-Image.jpg" alt="Industrial Automation" />
+          <h3>Industrial Security Automation</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why SIRIUS Section -->
+  <section class="why-sirius">
+    <div class="container">
+      <h2>Why Choose SIRIUS</h2>
+      <div class="reasons">
+        <div class="reason-item">
+          <h3>Durable & Reliable Products</h3>
+          <p>Our products are built to last while remaining pocket friendly.</p>
+        </div>
+        <div class="reason-item">
+          <h3>High Performance Systems</h3>
+          <p>Advanced solutions tested for quality and performance.</p>
+        </div>
+        <div class="reason-item">
+          <h3>Tested Solutions</h3>
+          <p>Innovative and thoroughly tested security solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- State of Art Infrastructure Section -->
+  <section class="infrastructure">
+    <div class="container">
+      <h2>State of Art Infrastructure</h2>
+      <p>
+        Our cutting-edge facilities ensure that every product meets the highest standards of quality and innovation.
+      </p>
+      <button class="btn">View All</button>
+    </div>
+  </section>
+
+  <!-- Our Achievement in Figures Section -->
+  <section class="achievements">
+    <div class="container">
+      <h2>Our Achievement in Figures</h2>
+      <div class="achievement-stats">
+        <div class="stat">
+          <h3>170+</h3>
+          <p>Completed Integrated Solutions</p>
+        </div>
+        <div class="stat">
+          <h3>400+</h3>
+          <p>Private Clients</p>
+        </div>
+        <div class="stat">
+          <h3>60+</h3>
+          <p>Government Clients</p>
+        </div>
+        <div class="stat">
+          <h3>1250+</h3>
+          <p>Installations in Home & Industry</p>
+        </div>
+        <div class="stat">
+          <h3>35+</h3>
+          <p>Years of Experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Request A Call Back Section -->
+  <section class="callback-section">
+    <div class="container">
+      <h2>Request A Call Back</h2>
+      <form id="callbackForm">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="country">Your Country</label>
+          <input type="text" id="country" name="country" placeholder="Enter your country" required />
+        </div>
+        <div class="form-group">
+          <label for="contact">Contact Number</label>
+          <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required />
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-about">
+        <p>
+          SIRIUS is a leading brand in smart security systems. Few lines about the SIRIUS brand or organization go here.
+        </p>
+        <button class="btn">Read More</button>
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Industries we Serve</a></li>
+          <li><a href="#">SIRIUS News</a></li>
+          <li><a href="#">Our Clients</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Registered Address</h3>
+        <p>
+          Saha Urf Peepal Gaon<br>
+          <span>Pincode :- 211012</span>
+          <span>City :- Prayagraj</span>
+          <span>State :- Uttar Pradesh</span>
+
+        </p>
+      </div>
+      <div class="footer-social">
+        <h3>Connect With Us</h3>
+        <!-- Social icons can be added here -->
+         <span><i class="fa-brands fa-facebook-f"></i></span>
+         <span><i class="fa-solid fa-envelope"></i></span>
+         <span><i class="fa-brands fa-instagram"></i></span>
+         <span><i class="fa-brands fa-x-twitter"></i></i></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/script.js"></script>
+</body>
+</html>
